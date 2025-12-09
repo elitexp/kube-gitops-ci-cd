@@ -18,7 +18,7 @@ patchesStrategicMerge:
 images:
 - name: openlabfree/globomantics-be:v7
   newName: ghcr.io/elitexp/globomantics-hotel-backend
-  newTag: 432f75f64bfb2edf489c25d99b1428c30c651c77
+  newTag: c2cf491d49788636b1dd8669d3cec71c8a183487
 - name: openlabfree/globomantics-fe:v4
   newName: ghcr.io/elitexp/globomantics-hotel-frontend
-  newTag: 432f75f64bfb2edf489c25d99b1428c30c651c77
+  newTag: c2cf491d49788636b1dd8669d3cec71c8a183487

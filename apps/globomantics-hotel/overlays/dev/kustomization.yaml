@@ -6,10 +6,14 @@ namespace: laligurans-mr5
 resources:
 - ../../base
 - namespace.yaml
+- tls-secret.yaml
 
 patchesStrategicMerge:
-- ingress-patch.yaml
-- configmap-patch.yaml
+- patches/ingress.yaml
+- patches/configmap.yaml
+- patches/namespace.yaml
+- patches/frontend-deployment.yaml
+- patches/backend-deployment.yaml
 
 images:
 - name: openlabfree/globomantics-be:v7

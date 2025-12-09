@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: laligurans-mr5
-  labels:
-    environment: dev
-    app: globomantics-hotel
-

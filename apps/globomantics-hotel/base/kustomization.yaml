@@ -12,8 +12,8 @@ resources:
   - frontend/configmap.yaml
   - frontend/deployment.yaml
   - frontend/service.yaml
-  - storage/deployment.yaml
-  - storage/secret.yaml
-  - storage/service.yaml
+  # - storage/deployment.yaml
+  # - storage/secret.yaml
+  # - storage/service.yaml
   - ingress/ingress.yaml
 
